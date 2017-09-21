@@ -15,6 +15,8 @@ exports.run = (client, message, args) => {
 
 }
 
+This is a Test Write
+
 exports.conf = {
     enabled: true,
     guildOnly: false,
