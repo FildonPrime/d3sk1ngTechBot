@@ -27,3 +27,4 @@ exports.help = {
     description: 'Shows new vehicles of Smuggler\'s Run update',
     usage: '141'
 };
+Change
