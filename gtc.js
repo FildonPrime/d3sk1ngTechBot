@@ -24,7 +24,7 @@ exports.conf = {
 };
 
 exports.help = {
-    name: 'gtc',
+    name: 'nt,
     description: 'go to techsupport',
-    usage: 'gtc'
+    usage: 'nt'
 };
