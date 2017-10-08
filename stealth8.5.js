@@ -6,9 +6,9 @@ exports.run = (client, message, args) => {
         .setColor(Math.floor(Math.random() * 16777215))
         .setAuthor(`${message.author.username}`, message.author.avatarURL)
         .addField('How to use stealth mode?', 'The stealth mode is not like the old stealth, to make it work you have to actually trigger a transaction. How? Sell a car, pick up some money from a ped etc.')
-        .addField('Easiest Way:', '1. Go to Recovery>Stealth Mode>Add Money to: (Bank/cash).\n2. Go to Recovery>Stealth Mode>Transactions Multiplier>"Set amount" (amount x 2000 is what you will get)\n3. Go to Recovery>Stealth Mode>Status>"Tick it"\n4. Go to Recovery>Stealth Mode>Self Ped Drop>"tick it" \n\nThat\'s it. Now you will get "amount x 2000" each transaction!')
-        .addField('Video Guide:', 'https://youtu.be/qMyNLmT31Oo')
-        .addField('Now, VIP users can use Insane Money, 2Billion every half a second', 'Go to Recovery>Stealth Mode>Insane Money then follow step 2.')
+        .addField('Text Guode:', '1. Go to Recovery>Stealth Mode>Add Money to: (Bank/cash).\n2. Go to Recovery>Stealth Mode>Amount(Choose how much you want per sec)\n3. Go to Recovery>Stealth Mode>Status>"Tick it"\n4. Go to Recovery>Stealth Mode>Self Ped Drop>"tick it" \n\nThat\'s it. Now you will get the "amount" you inputted!')
+        .addField('GIF Guide', 'https://imgur.com/AhtBnNh')
+        .addField('Note:', 'VIP users get 10mil stealth while Premium users get 5mil.')
     message.delete();
 
     message.channel.send({
@@ -24,7 +24,7 @@ exports.conf = {
 };
 
 exports.help = {
-    name: 'stealth8.5',
-    description: 'stealth8.5 method',
-    usage: 'stealth8.5'
+    name: 'stealth9.2',
+    description: 'stealth9.2 method',
+    usage: 'stealth9.2'
 };
