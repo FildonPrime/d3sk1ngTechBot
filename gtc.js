@@ -9,7 +9,7 @@ exports.run = (client, message, args) => {
         .setAuthor(`D3SK1NG Menu`, `http://i.imgur.com/aHDTHDm.png`)
         .setColor(Math.floor(Math.random() * 16777215))
         .setThumbnail('')
-        .addField(`Hello ${user.username},`, 'We are more than willing to help you but it would be great if you told us your problem in #tech-support.')
+        .addField(`Hello ${message.mentions.users.first()},`, 'We are more than willing to help you but it would be great if you told us your problem in #tech-support.')
         .setFooter('Messages deletes in 60s')
     message.channel.send({embed}).then(m => m.delete(600000));
 
